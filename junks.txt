@@ -1,0 +1,11 @@
+{user.map((me,index) => (
+            <div className='card my-2 bg-dark text-white' width="18rem" key={me._id}>
+              <div className='list-group list-group-flush bg-dark text-white' >
+                <h2 className='list-group-item bg-dark text-white' >{index+1}</h2>
+                <h2 className='list-group-item bg-dark text-white' >{me.name}</h2>
+                <h2 className='list-group-item bg-dark text-white' >{me.email}</h2>
+                {/* <h2>{me.name}</h2> */}
+              </div>
+            </div>
+
+          ))}

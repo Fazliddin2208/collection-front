@@ -1,0 +1,74 @@
+.my-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: rgb(170, 170, 169);
+    border-radius: 10px;
+    border-top: 10px solid #0D6EFD;
+}
+.my-form h2{
+    text-align: center;
+    margin: 10px 0 20px;
+}
+.my-form p{
+    text-align: center;
+}
+.my-block{
+    /* position: absolute;
+    left: 0; */
+    width: 100%;
+    /* background-color: rgb(170, 170, 169) !important; */
+    min-height: 100vh;
+}
+
+.title{
+    text-align: center;
+}
+.title span{
+    color: #fd0d85;
+}
+
+.my-cards{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+}
+
+.my-card{
+    max-width: 24% !important;
+    margin-bottom: 10px;
+}
+.my-teg{
+    margin-right: 10px;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.my-container{
+    /* margin-top: 90px; */
+}
+
+i:hover{
+    cursor: pointer;
+}
+.fa-heart{
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+    transition: transform 0.3s;
+}
+.fa-heart:hover{
+    /* font-size: 22px; */
+    transform: scale(1.2);
+}
+
+.fa-heart:active{
+    color: red;
+}
+.me{
+    color: black;
+}
+.me:hover{
+    color: black;
+}
